@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.list li{
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 19px;
+    transition: all 0.1s ease-in-out;
+}
+.list li a{
+    text-decoration: none; 
+    color: black;
+    
+}
+.list li:hover{
+    transform: scale(1.1);
+}
+.botton{
+    display: inline-block;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    line-height: 40px; 
+    border-radius: 11px;
+    box-shadow:15px 15px 32px -14px rgba(0,0,0,0.75);
+    transition: all 0.3s ease-in-out;
+}
+.nav .list li a.focus {
+    display: inline-block;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    line-height: 40px; 
+    border-radius: 11px;
+    box-shadow:15px 15px 32px -14px rgba(0,0,0,0.75);
+    transition: all 0.3s ease-in-out;
+}
+.nav .list li a.focus:hover{
+    transform: scale(1.1);
+    background-color: #333;
+}
+
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 80px 30px 80px;
+
+}
+
+.center-contant {
+    text-align: center;
+    font-weight: 500;
+}
+
+.center-contant .center-ultimate{
+    font-size: 4.9rem;
+    height: 50px;
+    color: #484848;
+}
+.center-contant .center-sale{
+    height: 190px;
+    font-size: 9.5rem;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.center-contant .center-new{
+    height: 30px;
+    font-size: 1.5rem;
+    font-weight: 250;
+}
+
+.center-contant .center-botton{
+    font-weight: 400;
+    text-decoration: none; 
+    margin: 20px 0 20px 0;
+    display: inline-block;
+    width: 200px;
+    font-size: 0.7rem;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    line-height: 40px; 
+    border-radius: 11px;
+    box-shadow:15px 15px 32px -14px rgba(0,0,0,0.75);
+    transition: all 0.3s ease-in-out;
+}
+
+.center-contant .center-botton:hover{
+    transform: scale(1.1);
+    background-color: #333;
+}
+
+.logos-pic{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    box-shadow: -5px 31px 91px -32px rgba(0,0,0,0.75);
+}
+.style-img{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+    height: 520px;
+}
+.style-img .style{
+    transition: all 1.0s ease-in-out;
+}
+.style-img .style:hover{
+    transform: scale(1.1);
+}
+
+.midel-conetat{
+    margin: 109px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.midel-conetat .midel-img{
+    transition: all 5.0s ease-in-out;
+}
+
+.midel-conetat .midel-img:hover{
+    transform: scale(1.2);
+}
+.buy-now{
+    width: 500px;
+    text-align: center;
+    font-weight: 500;
+    text-align: left;
+}
+.buy-now .head{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.buy-now .cont{
+
+    margin-top: 10px;
+}
+.buy-now .buy a{
+    margin-top: 20px;
+    text-decoration: none; 
+    display: inline-block;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    line-height: 40px; 
+    border-radius: 11px;
+    box-shadow:15px 15px 32px -14px rgba(0,0,0,0.75);
+    transition: all 0.4s ease-in-out;
+}
+
+.buy-now .buy a:hover{
+    transform: scale(1.1);
+}
+
+.main-nav .main-text{
+    text-align: center;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.main-nav .main-text p{
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.nav-button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    background-color: #f9f9f9;
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside buttons */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-button.active {
+    color: white; /* White text for active button */
+    background-color: black; /* Black background for active button */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Elevated shadow for active button */
+}
+
+.nav-button:hover {
+    transform: translateY(-3px); /* Slight upward movement */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+     /* Enhance shadow on hover */
+}
+
+/* Card Container */
+.card-container {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+ .card2{
+    margin: 0;
+ }
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image */
+.card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Card Content */
+
+.card-content {
+    padding: 15px;
+}
+.card-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-title{
+    font-weight: 600;
+}
+.brand {
+    text-align: left;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.rating{
+    margin-bottom: 33px;
+}
+.reviews {
+    text-align: left;
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.price {
+    color: #333;
+    font-size: 20px;
+}
+
+.status {
+    color: red;
+    font-weight: 300;
+    font-size: 14px;
+}
+.more-bt{
+    text-align: center;
+}
+.more-bt a{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    line-height: 40px; 
+    border-radius: 11px;
+    box-shadow: 4px 12px 11px -11px rgba(0,0,0,0.75);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.more-bt a:hover{
+    transform: scale(1.1);
+    background-color: #333;
+}
+
+
+.chance-icon{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    margin-top: 30px;
+    height: 90px;
+    box-shadow: 4px 14px 18px -22px rgba(0,0,0,0.75);
+}
+
+.chance-icon .first-icon{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chance-icon .first-icon img{
+    width: 30px;
+}
+.chance-icon .first-icon h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.follow-center-text{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.follow-center-text p{
+    margin-top: 15px;
+}
+.follow-center-pic{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-center-pic img{
+    width: 14%;
+}
+.footer-contant{
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.footer-center{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 50%;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 4px 14px 18px -22px rgba(0,0,0,0.75);
+}
+.custom-button {
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.footer-center .footer-text-center{
+    margin-top: 10px;
+}
+.footer-center .footer-text-center p{
+    margin-top: 20px;
+}
+.footer-center .footer-text-center .gmail{
+    margin-top: 70px;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 880px) {
+    .right-pic{
+        display: none;
+    }
+    .style{
+        display: none;
+    }
+    .midel-img{
+        display: none;
+    }
+    .left-pic{
+        display: none;
+    }
+    .logos-pic{
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 40px;
+        /* Width set karein */
+        height: 20px;
+        /* Height set karein */
+        object-fit: contain;
+        /* Image distortion ko avoid karein */
+    }
+    
+    .list li{
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.6rem;
+        padding: 10px;
+    }
+    
+
+}
+
+@media (max-width: 550px){
+    
+    .nav .list li a.focus {
+        display: inline-block;
+        width: 70px;
+        line-height: 20px; 
+        box-shadow:15px 15px 32px -14px rgba(0,0,0,0.75);
+        
+    }
+    .list li{
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.4rem;
+        padding: 10px;
+    }
+}
